@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+/* NavBar */
+
 * {
   font-family: 'Roboto';
 }
@@ -34,4 +36,28 @@ body {
   font-size: 18px;
   color: #E5E7EB;
   text-decoration: none;
+}
+
+/*Hero*/
+
+.heroLeft {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  background-color: #1F2937;
+}
+
+.heroSlogan {
+  color: #F9FAF8;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.heroSubSlogan {
+  color: #F9FAF8;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  padding-left: 25%;
 }
