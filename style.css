@@ -53,7 +53,7 @@ body {
 .subSlogan {
   max-width: 20%;
   color: #F9FAF8;
-  margin-left: 8px;
+  margin-left: 32px;
   text-shadow: 2px 2px #1F2937;
 }
 
@@ -64,17 +64,21 @@ body {
  text-shadow: 2px 2px #1F2937;
 }
 
+h2 > {
+  font-size: 36px;
+}
+
 .heroButton {
   margin-top: 4rem;
   margin-left: 2rem;
-  background: #E5E7EB;
+  color: #E5E7EB;
   font-size: 26px;
   border-radius: 5px;
   padding: 5px 10px;
-  color:#1F2937;
+  background:#3882F6;
 }
 
 .heroButton:hover {
-  background: #1F2937;
-  color:#E5E7EB;
+  color: #3882F6;
+  background:#E5E7EB;
 }
