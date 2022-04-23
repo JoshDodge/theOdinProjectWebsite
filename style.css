@@ -90,6 +90,8 @@ h2 > {
 .infoHeader {
   text-align: center;
   margin-bottom: 5%;
+  font-size: 30px;
+  margin-top: 5%;
 }
 
 .infoSection {
@@ -105,4 +107,29 @@ h2 > {
 
 .infoSub {
   width: 200px;
+}
+
+/*Quote*/
+
+.quote {
+  background-color: #E5E7EB;
+}
+
+.quoteBody {
+  color:#1F2937;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 36px;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 2%;
+}
+
+.quoteAuthor {
+  align-self: flex-end;
+  padding-left: 25%;
+  font-weight: bold;
+  font-size: 26px;
+  padding-top: 1%;
+  padding-bottom: 2%;
 }
