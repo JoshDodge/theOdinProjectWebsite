@@ -133,3 +133,36 @@ h2 > {
   padding-top: 1%;
   padding-bottom: 2%;
 }
+
+/*Call to Action*/
+
+.callToAction {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882F6;
+  margin: 5%;
+  border-radius: .5rem;
+}
+
+.cTAText {
+  padding-left: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 20px;
+  color: #F9FAF8;
+}
+
+.callToAction > button {
+  align-self: center;
+  margin-right: 9rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #F9FAF8;
+  font-size: 24px;
+  background-color: #3882F6;
+  border-color: #F9FAF8;
+  padding: 10px 20px;
+  border-style: solid;
+  font-family: 'Roboto';
+  border-radius: .5px;
+}
